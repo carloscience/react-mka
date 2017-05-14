@@ -1,0 +1,132 @@
+{
+    "fall_winter": [
+     {
+        "name": "1jacketCUside",
+        "mode": "portrait"
+     },
+     {
+        "name": "2jacketfrontfull",
+        "mode": "portrait"
+     },
+     {
+        "name": "3jacketside",
+        "mode": "portrait"
+     },
+     {
+        "name": "4croptop",
+        "mode": "fwp_last"
+     },
+     {
+        "name": "5croptopfull",
+        "mode": "portrait"
+     },
+     {
+        "name": "6frontdressms",
+        "mode": "portrait"
+     },
+     {
+        "name": "7frontdresscu",
+        "mode": "portrait"
+     },
+     {
+        "name": "8blouseandslacks",
+        "mode": "fwp_last"
+     },
+     {
+        "name": "9blackblousems",
+        "mode": "portrait"
+     },
+     {
+        "name": "10jacketfulllength",
+        "mode": "portrait"
+     },
+     {
+        "name": "11wrapjacketdetail",
+        "mode": "portrait"
+     },
+     {
+        "name": "12handtiesdetail",
+        "mode": "fwp_last"
+     },
+     {
+        "name": "13cocktailtopfront",
+        "mode": "landscape"
+     },
+     {
+        "name": "14cocktailbottom",
+        "mode": "landscape"
+     },
+     {
+        "name": "15cocktaildressms",
+        "mode": "fwl_last"
+     },
+     {
+        "name": "16kimonoarmscrossed",
+        "mode": "portrait"
+     },
+     {
+        "name": "17sheershirt",
+        "mode": "portrait"
+     },
+     {
+        "name": "18kimonoback",
+        "mode": "portrait"
+     },
+     {
+        "name": "19kimonoarmsopen",
+        "mode": "fwp_last"
+     },
+     {
+        "name": "20dressclose-upside",
+        "mode": "portrait"
+     },
+     {
+        "name": "21dressfullfront",
+        "mode": "portrait"
+     },
+     {
+        "name": "22dressfullback",
+        "mode": "portrait"
+     },
+     {
+        "name": "23dresscuback",
+        "mode": "fwp_last"
+     }],
+     "spring_summer": [
+     {
+        "name": "1sheerblousems",
+        "mode": "spring_summer"
+     },
+     {
+        "name": "2sheerblousems",
+        "mode": "spring_summer"
+     },
+     {
+        "name": "3sleevelessdress",
+        "mode": "ss_last"
+     },
+     {
+        "name": "4sheerblackdress",
+        "mode": "spring_summer"
+     },
+     {
+        "name": "5slipdress",
+        "mode": "spring_summer"
+     },
+     {
+        "name": "6frontslipdress",
+        "mode": "ss_last"
+     },
+     {
+        "name": "7kimonoback",
+        "mode": "spring_summer"
+     },
+     {
+        "name": "8kimonoopen",
+        "mode": "spring_summer"
+     },
+     {
+        "name": "9kimonofront",
+        "mode": "ss_last"
+     }]
+}
