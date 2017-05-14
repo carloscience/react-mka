@@ -279,7 +279,7 @@ nav a {
 
 /* line 227, main.scss */
 #header_graphic {
-  max-width: 913px;
+  max-width: 907px;
   margin: 0 auto 30px auto;
 }
 
@@ -588,6 +588,11 @@ nav a {
 /* line 497, main.scss */
 .ie_bg {
   background: url("../images/nuloop.jpg") top center no-repeat;
+}
+
+#container {
+  text-align: center;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 860px) {

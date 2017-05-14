@@ -27,13 +27,14 @@ class CollectionsPage extends React.Component {
     render() {
         let body = document.querySelector('body'); body.classList.remove("home");
         return (
-            <div>
+            <div id="container">
                 <Header />
                 <section id="showCollections">
                     <h2 className="black_outline">Fall/Winter 2014-15</h2>
                     <div id="header_graphic">
                         <img src="http://carlosoblivion.com/man-kim/images/header.jpg" />
                     </div>
+                    <div className="fall-wrap">
                     {this.state.items.map((cl, index) => {
                         return(<div key={cl.name} id="align_thumbnail" className={cl.mode}>
                             <a href={ `http://carlosoblivion.com/man-kim/images/fw_slides/${cl.name}SLIDE.jpg`} className="fancybox" data-fancybox="group" id={cl.name} rel="fallWinter">
@@ -41,6 +42,7 @@ class CollectionsPage extends React.Component {
                             </a>
                         </div>);
                     })}
+                    </div>
                 </section>
             </div>
         );

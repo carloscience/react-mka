@@ -27,7 +27,7 @@ class CollectionsPage extends React.Component {
     render() {
         let body = document.querySelector('body'); body.classList.remove("home");
         return (
-            <div>
+            <div id="container">
                 <Header />
                 <section id="showCollections">
                     <h2 className="black_outline">Spring/Summer 2014</h2>

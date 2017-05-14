@@ -17,31 +17,12 @@ app.use(require('webpack-dev-middleware')(compiler, {
 
 app.use(require('webpack-hot-middleware')(compiler));
 
-app.get('/', function(req, res) {
-  res.sendFile(path.join( __dirname, '../src/index.html'));
-});
-
-app.get('/about', function(req, res) {
-  res.sendFile(path.join( __dirname, '../src/index.html'));
-});
-
-app.get('/contact', function(req, res) {
-  res.sendFile(path.join( __dirname, '../src/index.html'));
-});
-
-app.get('/collections', function(req, res) {
-  res.sendFile(path.join( __dirname, '../src/index.html'));
-});
-
-app.get('/spring-summer', function(req, res) {
-  res.sendFile(path.join( __dirname, '../src/index.html'));
-});
-
-app.get('/films', function(req, res) {
+app.get('/:var(about|contact|collections|spring-summer|films)?', function(req, res) {
   res.sendFile(path.join( __dirname, '../src/index.html'));
 });
 
 app.get('/api/collections', function(req, res) {
+  res.type('application/json');
   res.sendFile(path.join( __dirname, '../src/data/collections.json'));
 });
 
