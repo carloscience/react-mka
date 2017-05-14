@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 const RestApi = {
     get: url => {
         return new Promise((success, error) => {
